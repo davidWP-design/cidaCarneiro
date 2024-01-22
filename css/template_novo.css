@@ -1,0 +1,1402 @@
+/*
+*
+* Arquivo de estilos do Site cidacarneiro.com
+* 
+* 2022
+*
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Barlow-Thin;
+}
+
+
+
+/**
+* FONTES
+*/
+
+
+@font-face {
+    font-family: Barlow-Thin;
+    src: url('../font/Barlow-Thin.ttf');
+}
+
+@font-face {
+    font-family: Barlow-Regular;
+    src: url('../font/Barlow-Regular.ttf');
+}
+
+main {
+    height: auto;
+    overflow-x: hidden;
+}
+
+
+/*
+ * Header
+*/
+
+
+.box-header {
+    width: 100%;
+    margin-top: 2.5%;
+}
+
+/* Logo */
+
+.home .logo img {
+    max-width: 75%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.archive .logo img {
+    max-width: 75%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.page-template .logo img {
+    max-width: 75%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.blog .logo img {
+    max-width: 75%;
+    height: auto;
+    margin-left: 5%;
+}
+
+.single .logo img {
+    max-width: 75%;
+    height: auto;
+    margin-left: 5%;
+}
+
+/* Menu */
+
+.menu-principal .menu li a {
+    font-family: Barlow-Thin;
+    /* font-size: 28px; */
+    font-size: 2em;
+    text-decoration: none;
+    color: rgba(192, 39, 45, 1);
+    text-transform: lowercase;
+}
+
+.menu-principal .menu li a:hover {
+    color: #444;
+}
+
+.home .menu-principal {
+    margin-right: 30%;
+    margin-top: 60%;
+    text-align: right;
+}
+
+.home .menu-principal .menu li {
+    position: relative;
+    list-style: none;
+    padding: 0px;
+}
+
+.archive .menu-principal {
+    margin-right: 30%;
+    margin-top: 60%;
+    text-align: right;
+}
+
+.archive .menu-principal .menu li {
+    position: relative;
+    list-style: none;
+    padding: 0px;
+}
+
+.archive .menu-principal .menu .current-menu-item a {
+    color: #333;
+}
+
+.page-template .menu-principal {
+    margin-right: 30%;
+    margin-top: 60%;
+    text-align: right;
+}
+
+.page-template .menu-principal .menu li {
+    position: relative;
+    list-style: none;
+    padding: 0px;
+}
+
+.page-template .menu-principal .menu .current-menu-item a {
+    color: #333;
+}
+
+.blog .menu-principal {
+    margin-right: 30%;
+    margin-top: 60%;
+    text-align: right;
+}
+
+.blog .menu-principal .menu li {
+    position: relative;
+    list-style: none;
+    padding: 0px;
+}
+
+.blog .menu-principal .menu .current-menu-item a {
+    color: #333;
+}
+
+.single .menu-principal {
+    margin-right: 30%;
+    margin-top: 60%;
+    text-align: right;
+}
+
+.single .menu-principal .menu li {
+    position: relative;
+    list-style: none;
+    padding: 0px;
+}
+
+.single .menu-principal .menu .current-menu-item a {
+    color: #333;
+}
+
+/**
+ *
+ * Menu Mobile
+ *
+ * 
+ */
+
+/*icone*/
+
+.box-icone-menu {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    right: 30px;
+    margin-top: -70px;
+    z-index: 99999999;
+}
+
+.hamburguer {
+    position: relative;
+    display: block;
+    background-color: #fcfcfc;
+    width: 30px;
+    height: 2px;
+    top: 29px;
+    left: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.hamburguer:before {
+    background-color: #fcfcfc;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+.hamburguer:after {
+    background-color: #fcfcfc;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+/* ajuste da cor do menu hamburguer para pagina home e archive */
+
+/* hamburguer home */
+.home .hamburguer {
+    background-color: #222;
+}
+
+.home .hamburguer:before {
+    background-color: #222;
+}
+
+.home .hamburguer:after {
+    background-color: #222;
+}
+
+/* hamburguer archive */
+.archive .hamburguer {
+    background-color: #222;
+}
+
+.archive .hamburguer:before {
+    background-color: #222;
+}
+
+.archive .hamburguer:after {
+    background-color: #222;
+}
+
+.hamburguer {
+    background-color: #222;
+}
+
+.hamburguer:before {
+    background-color: #222;
+}
+
+.hamburguer:after {
+    background-color: #222;
+}
+
+.hamburguer:before {
+    top: -10px;
+}
+
+.hamburguer:after {
+    bottom: -10px;
+}
+
+#menu-hamburguer {
+    visibility: hidden;
+    display: none;
+}
+
+input:checked~label .hamburguer {
+    transform: rotate(45deg);
+}
+
+input:checked~label .hamburguer:before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+input:checked~label .hamburguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+.menu-mobile .menu .menu-item a {
+    font-family: 'Work Sans', sans-serif;
+    color: #d90011;
+}
+
+.box-icone-menu {
+    display: none;
+}
+
+.menu-mobile {
+    display: none;
+}
+
+
+/* /Menu Mobile*/
+
+
+
+
+/*
+ * Rodapé
+*/
+
+.rodape {
+    position: sticky;
+    margin-bottom: 1%;
+    margin-top: 10%;
+    padding: 30px;
+    max-width: 90%;
+}
+
+.rodape .copyright{
+/*     font-weight: bolder; */
+}
+
+.home .rodape {
+    position: relative;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+/*
+ * Corpo das Páginas
+*/
+
+
+/* Background páginas */
+
+.home {
+    background-image: url(../img/bg-home.png);
+    background-size: 87% auto;
+    background-position: center top;
+    /* background-position: center 20%; */
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.archive,
+.post-template-default,
+.page-template,
+.blog, .single,
+.woocommerce-page,
+.page-template-page-pagamento,
+.page-template-page-carrinho {
+    background-image: url(../img/bg-paginas.png);
+    background-size: 87% auto;
+    background-position: center top;
+    /* background-position: center 20%; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* 
+ *
+ * Página Home
+ * 
+*/
+
+
+/* Conteudo */
+
+.home .conteudo-home {
+    display: flex;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+/* 
+ *
+ * Archive 
+ * 
+*/
+
+
+
+.archive .box-header {
+    position: fixed;
+    display: block;
+    right: 0;
+    height: 100%;
+}
+
+/* Conteudo */
+
+.archive .conteudo a {
+    color: #c1272d;
+    font-weight: 900;
+}
+
+.archive .artigo{
+    margin-top: 10%;
+}
+
+.archive .conteudo .artigo .data p {
+    color: #222;
+    font-weight: 900;
+}
+
+.archive .conteudo .artigo .categoria p {
+    color: #222;
+    font-weight: 900;
+}
+
+.archive .conteudo .artigo .conteudo_post p {
+    font-family: Barlow-Regular;
+    color: #111;
+    font-weight: normal;
+}
+
+.archive .post-thumbanil{
+    margin: 1rem 0;
+}
+
+.archive .share figure img{
+    width: 100%;
+}
+
+/* box das imagens */
+.archive .conteudo .box-post .conteudo-post p:nth-child(1){
+    width: 100%;
+    height: 350px;
+   
+}
+
+.archive .conteudo .box-post .conteudo-post p a img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.archive .conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    /* margin-top: 5%; */
+    margin-top: 20%;
+}
+
+.archive .conteudo .box-post {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.archive .legendas {
+    font-family: Barlow-Thin;
+    font-weight: normal;
+    color: #fff;
+    font-size: 13px;
+    /* font-size: 0.5rem; */
+    margin: auto;
+    position: absolute;
+    bottom: -1%;
+    left: 1%;
+    transition: 0.3s ease-in;
+    -webkit-transition: 0.3s ease-in;
+    overflow: hidden;
+    background: #222;
+    opacity: 0.8;
+    /* width: 87%; */
+    width: 90%;
+    height: 0px;
+    z-index: 9999;
+    content: " ";
+    visibility: hidden !important;
+    cursor: pointer;
+}
+
+.archive .conteudo-post:hover .legendas {
+    display: block;
+    height: 150px!important;
+    overflow: visible;
+    visibility: visible !important;
+}
+
+.archive .grupo-campos-personalizados {
+    text-align: left;
+}
+
+.archive .legendas{
+    padding: 10px 0 0px 10px;
+}
+
+.archive .legendas .campo-personalizado {
+    list-style: none;
+    /* font-size: 18px; */
+    font-size: 0.9rem;
+    line-height: 1.5rem !important;
+    font-weight: bold;
+    color: transparent;
+    /* padding: 10px 0 0px 10px; */
+    transition: 0.4s ease-in;
+    -webkit-transition: 0.4s ease-in;
+}
+
+.archive .conteudo-post:hover .campo-personalizado {
+    color: #fff;
+}
+
+/* .archive .slb_data_content .slb_data_desc{
+    display: none;
+} */
+
+.archive .slb_data_content .slb_data_desc .slb_template_tag_item_description{
+    display: none;
+}
+
+/* paginação */
+.archive .box-paginacao {
+    width: 80%;
+}
+
+.archive .box-paginacao .paginacao {
+    text-align: right;
+    padding: 15px;
+    margin-right: 5%;
+}
+
+.archive .box-paginacao .paginacao strong {
+    font-weight: bolder;
+    font-family: Barlow-Regular;
+    padding: 1%;
+}
+
+.archive .box-paginacao .paginacao a {
+    color: #c1272d;
+    font-family: Barlow-Regular;
+    /* margin-left: 1%;
+    margin-right: 2%; */
+    padding: 1%;
+    text-decoration: underline;
+}
+
+
+/* barra lateral de widgets */
+.archive .barra-lateral {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15%;
+    right: 25%;
+    position: fixed;
+}
+
+.archive .barra-lateral .widget-wrapper {
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+
+.archive .barra-lateral .widget-wrapper .widget-titulo {
+    color: #222;
+    font-weight: 900;
+}
+
+.archive .barra-lateral .widget-wrapper ul {
+    list-style: none;
+}
+
+.archive .barra-lateral .widget-wrapper ul li {
+    text-align: right;
+}
+
+.archive .barra-lateral .widget-wrapper ul li a {
+    color: #c1272d;
+    font-weight: 900;
+}
+
+
+@media (max-width: 574px){
+
+    .archive .box-paginacao .paginacao strong {
+        padding: 5%;
+    }
+    .archive .box-paginacao .paginacao a {
+        /* margin-left: 5%;
+        margin-right: 5%; */
+        padding: 5%;
+    }
+}
+
+
+/* 
+ *
+ * Blog 
+ * 
+*/
+
+
+.blog .box-header {
+    position: fixed;
+    display: block;
+    right: 0;
+}
+
+/* Conteudo */
+
+.blog .conteudo {
+    /* margin-top: 5%; */
+    margin-top: 12%;
+}
+
+.blog .conteudo a {
+    color: #c1272d;
+    font-weight: 900;
+}
+
+.blog .artigo{
+    margin-top: 10%;
+}
+
+.blog .conteudo .artigo .data p {
+    color: #222;
+    font-weight: 900;
+}
+
+.blog .conteudo .artigo .categoria p {
+    color: #222;
+    font-weight: 900;
+}
+
+.blog .conteudo .artigo .conteudo_post p {
+    font-family: Barlow-Regular;
+    color: #111;
+    font-weight: normal;
+}
+
+.blog .post-thumbanil{
+    margin: 1rem 0;
+}
+
+.blog .share figure img{
+    width: 100%;
+}
+
+
+/* barra lateral de widgets */
+.blog .barra-lateral {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15%;
+    right: 25%;
+    position: fixed;
+}
+
+.blog .barra-lateral .widget-wrapper {
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+
+.blog .barra-lateral .widget-wrapper .widget-titulo {
+    color: #222;
+    font-weight: 900;
+}
+
+.blog .barra-lateral .widget-wrapper ul {
+    list-style: none;
+}
+
+.blog .barra-lateral .widget-wrapper ul li {
+    text-align: right;
+}
+
+.blog .barra-lateral .widget-wrapper ul li a {
+    color: #c1272d;
+    font-weight: 900;
+}
+
+
+
+/* 
+*
+*
+* Single page
+*
+* 
+*/
+.single .box-header {
+    position: fixed;
+    display: block;
+    right: 0;
+}
+
+/* Conteudo */
+
+.single .conteudo {
+    margin-top: 15%;
+}
+
+.single .conteudo a {
+    color: #c1272d;
+    font-weight: 900;
+}
+
+.single .artigo{
+    margin-top: 10%;
+}
+
+.single .conteudo .artigo .data p {
+    color: #222;
+    font-weight: 900;
+}
+
+.single .conteudo .artigo .categoria p {
+    color: #222;
+    font-weight: 900;
+}
+
+.single .conteudo .artigo .conteudo_post p {
+    font-family: Barlow-Regular;
+    color: #111;
+    font-weight: normal;
+}
+
+.single .post-thumbanil{
+    margin: 1rem 0;
+}
+
+.single .paginacao{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.single .share figure img{
+    width: 100%;
+}
+
+.single [type=reset], [type=submit], button, html [type=button]{
+    background-color: #c1272d;
+    color: #fff;
+    border: 0;
+    padding: 0.4rem;
+    border-radius: 10px;
+}
+
+
+/* barra lateral de widgets */
+.single .barra-lateral {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16%;
+    right: 25%;
+    position: fixed;
+}
+
+.single .barra-lateral .widget-wrapper {
+    width: 100%;
+    display: block;
+    text-align: right;
+}
+
+.single .barra-lateral .widget-wrapper .widget-titulo {
+    color: #222;
+    font-weight: 900;
+}
+
+.single .barra-lateral .widget-wrapper ul {
+    list-style: none;
+}
+
+.single .barra-lateral .widget-wrapper ul li {
+    text-align: right;
+}
+
+.single .barra-lateral .widget-wrapper ul li a {
+    color: #c1272d;
+    font-weight: 900;
+}
+
+/* 
+*
+*
+* Page template
+*
+* 
+*/
+.page-template .conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    /* margin-top: 5%; */
+    margin-top: 20%;
+}
+
+.page-template .conteudo p{
+    font-weight: 700;
+}
+
+.page-template .box-header {
+    position: fixed;
+    display: block;
+    right: 0;
+    height: 100%;
+}
+
+
+
+
+
+/* 
+*
+*
+* Single Artes
+*
+* 
+*/
+
+.single-artes .slides-miniaturas{
+    display: inline-flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.single-artes .box-post {
+    
+    white-space: nowrap;
+
+}
+
+/* 
+*
+* Telas menores 
+*
+*/
+
+@media (max-width: 767.98px) {
+
+
+    /* menu mobile */
+    .wrapper-menu{
+        height: 0;
+        margin-top: 0;
+    }
+
+    .menu-principal {
+        display: none;
+    }
+
+    .box-icone-menu {
+        display: block;
+        right: 4%;
+        top: 35%;
+        /* bottom: 6%; */
+    }
+
+    .menu-menu-mobile-container {
+        position: relative;
+        background: rgb(255, 255, 255);
+        opacity: 0.98;
+        height: 100vh;
+        width: 70%;
+        display: block;
+        margin-top: -75%!important;
+        /* margin-top: 0px; */
+        /* margin-right: -5%; */
+        margin-left: auto;
+        z-index: 999999;
+    }
+
+    .menu-mobile {
+        visibility: hidden;
+        display: none;
+        opacity: 1;
+        height: 100vh;
+    }
+
+    .mostrar-menu {
+        visibility: visible;
+        display: block;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        z-index: 9999999;
+        margin-top: -15px;
+    }
+
+    .mostrar-menu .menu .menu-item a {
+        font-family: Barlow-Thin;
+        font-size: 1.6rem;
+        text-transform: lowercase;
+        color: #951b20;
+        text-decoration: none;
+        
+    }
+
+    .menu-mobile .menu .menu-item {
+        display: block;
+        padding: 2% 15%;
+        text-align: left;
+        margin-left: 1%;
+    }
+
+    .menu-mobile .menu {
+        list-style: none;
+        margin-right: 20px;
+    }
+
+        /* icone menu */
+        .archive .box-icone-menu {
+            display: block;
+            right: 5%;
+            top: 50%;
+        }
+    
+        /* menu container */
+        .archive .menu-menu-mobile-container {
+            position: relative;
+            background: rgb(255, 255, 255);
+            opacity: 0.96;
+            height: 100vh;
+            width: 70%;
+            display: block;
+            margin-top: -50%!important;
+            margin-right: -25%;
+            margin-left: auto;
+            z-index: 999999;
+        }
+    
+        /* .archive .menu-menu-mobile-container .menu:nth-child(1) {
+            padding-top: 25%;
+        } */
+    
+
+    .menu-menu-mobile-container .menu:nth-child(1) {
+        height: 100%;
+        padding-top: 35%;
+    }
+
+    /* submenus */
+    .menu-menu-mobile-container .menu .menu-item .sub-menu {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        display: block;
+        visibility: hidden;
+        height: 0px;
+        transition: all 0.4s;
+        cursor: pointer;
+        background-color: #fff;
+        z-index: 999;
+    }
+
+    .menu-menu-mobile-container .menu .menu-item:hover .sub-menu {
+        height: 100%;
+        visibility: visible;
+    }
+
+    .menu-menu-mobile-container .menu .sub-menu .menu-item {
+        background-color: #fff;
+        opacity: inherit;
+        max-width: 100%;
+        margin-top: 2%;
+        text-align: left;
+    }
+
+    .menu-menu-mobile-container .menu .menu-item:hover .sub-menu .menu-item {
+        visibility: visible;
+        overflow: visible;
+        width: 100%;
+    }
+
+    .menu-menu-mobile-container .menu .sub-menu .menu-item a {
+        font-family: Barlow-Thin;
+        padding-left: 10%;
+        font-size: 1.5rem;
+        color: #951b20;
+        text-decoration: none;
+    }
+
+    /* /menu mobile */
+
+    /* logo */
+    .home .logo a{
+        display: flex;
+    }
+
+    .home .logo img {
+        max-width: 60%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .archive .logo img {
+        max-width: 40%;
+        height: auto;
+        margin-left: 30%;
+        margin-right: auto;
+    }
+    
+    .page-template .logo img {
+        max-width: 40%;
+        height: auto;
+        margin-left: auto;
+    }
+    
+    .blog .logo img {
+        max-width: 40%;
+        height: auto;
+        margin-left: 30%;
+        margin-right: auto;
+    }
+
+    .single .logo img {
+        max-width: 40%;
+        height: auto;
+        margin-left: 30%;
+        margin-right: auto;
+    }
+    
+    
+    /* Rodapé */
+    .rodape{
+        padding: 10px 5px;
+        margin-bottom: 1%;
+    }
+
+    .rodape .copyright{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+
+    /*
+    * Corpo das Páginas
+    */
+
+
+    /* Background páginas */
+
+    .home {
+        background-image: url(../img/bg-home.png);
+        background-size: 100%;
+        background-position: center 60%;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+
+    .archive,
+    .post-template-default,
+    .page-template,
+    .blog,
+    .woocommerce-page,
+    .page-template-page-pagamento,
+    .page-template-page-carrinho {
+        background-image: url(../img/bg-paginas.png);
+        background-size: 200%;
+        background-position: bottom;
+        /* background-position: center 20%; */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    
+    /* Página Home */
+    .home .box-header{
+        height: auto;
+    }
+/* 
+    .home .box-icone-menu{
+        bottom: 50%;
+        right: 1%;
+    } */
+
+    .home .conteudo-home{
+        height: auto;
+    }
+
+
+    /* rodapé */
+    .home .rodape {
+        margin-top: 100%;
+        max-width: 100%;
+    }
+    .rodape{
+        max-width:100%;
+    }
+
+    /* Páginas Achive */
+
+
+    .archive .box-header{
+        position: relative;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    /* box das imagens */
+    .archive .conteudo .box-post .conteudo-post p:nth-child(1) {
+        width: 100%;
+        height: auto;
+        z-index: 2;
+    
+    }
+    
+    .archive .conteudo .box-post .conteudo-post p a img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        /* cursor: pointer; */
+        pointer-events: none;
+    }
+
+/* 
+    .archive .conteudo .box-post .conteudo-post p a img{
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        z-index: 1;
+    } */
+
+
+    .archive .legendas {
+        font-family: Barlow-Thin;
+        font-weight: normal;
+        color: #fff;
+        /* font-size: 13px; */
+        margin: auto;
+        position: absolute;
+        bottom: -1%;
+        left: 1%;
+        transition: 0.3s ease-in;
+        -webkit-transition: 0.3s ease-in;
+        overflow: hidden;
+        background: #222;
+        opacity: 0.8;
+        width: 87%;
+        height: 0px;
+        z-index: 1;
+        content: " ";
+        visibility: hidden !important;
+        cursor: pointer;
+    }
+
+    .archive .conteudo-post:hover .legendas{
+        display: block;
+        /* height: 150px !important; */
+        height: 140px!important;
+        overflow: visible;
+        visibility: visible !important;
+   
+    }
+
+    .archive .legendas {
+        padding: 10px 0 0 15px;
+    }
+
+    .archive .legendas .campo-personalizado {
+        list-style: none;
+        /* font-size: 18px; */
+        font-size: 1rem;
+        line-height: 1.5rem !important;
+        font-weight: bold;
+        color: #fff;
+        /* padding: 20px 0 0px 15px; */
+    }
+    /* /box das imagens */
+
+    .archive .barra-lateral{
+        position: relative;
+    }
+
+    /* Páginas template, blog */
+
+    .blog .box-icone-menu {
+        display: block;
+        right: 5%;
+        top: 50%;
+    }
+
+    .blog  .menu-menu-mobile-container {
+        position: relative;
+        background: rgb(255, 255, 255);
+        opacity: 0.96;
+        height: 100vh;
+        width: 70%;
+        display: block;
+        margin-top: -50%!important;
+        margin-right: -25%;
+        margin-left: auto;
+        z-index: 999999;
+    }
+
+    /* .blog .menu-menu-mobile-container .menu:nth-child(1) {
+        padding-top: 80%;
+        height: 100%;
+    } */
+
+    .blog .box-header{
+        position: relative;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .blog .artigo{
+        margin-top: 20%;
+    }
+
+    .blog .post-thumbanil{
+        margin: 1rem 0;
+    }
+
+    .blog .share figure img{
+        width: 100%;
+    }
+
+    .blog  iframe{
+        width: 100%;
+    }
+
+    .blog .barra-lateral{
+        position: relative;
+        right: auto;
+    }
+
+    .blog .paginacao{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+        
+    .page-template .box-icone-menu {
+        display: block;
+        right: 5%;
+        top: 50%;
+    }
+
+    .page-template  .menu-menu-mobile-container {
+        position: relative;
+        background: rgb(255, 255, 255);
+        opacity: 0.96;
+        height: 100vh;
+        width: 70%;
+        display: block;
+        margin-top: -50%!important;
+        margin-right: -25%;
+        margin-left: auto;
+        z-index: 999999;
+    }
+
+    .page-template .box-header{
+        position: relative;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .page-template .logo img {
+        max-width: 40%;
+        height: auto;
+        margin-left: 30%;
+        margin-right: auto;
+    }
+
+    .page-template .conteudo p{
+        font-weight: 800;
+    }
+
+    /* 
+    *
+    *
+    * Single page
+    *
+    * 
+    */
+    .single .box-header {
+        position: relative;
+        display: block;
+        right: 0;
+    }
+
+    .single .box-icone-menu {
+        display: block;
+        right: 5%;
+        top: 50%;
+    }
+
+    .single .menu-menu-mobile-container {
+        position: relative;
+        background: rgb(255, 255, 255);
+        opacity: 0.96;
+        height: 100vh;
+        width: 70%;
+        display: block;
+        margin-top: -50%!important;
+        margin-right: -25%;
+        margin-left: auto;
+        z-index: 999999;
+    }
+
+    /* Conteudo */
+
+    .single .conteudo {
+        margin-top: 25%;
+    }
+
+    .single .conteudo a {
+        color: #c1272d;
+        font-weight: 900;
+    }
+
+    .single .artigo{
+        margin-top: 10%;
+    }
+
+    .single .conteudo .artigo .data p {
+        color: #222;
+        font-weight: 900;
+    }
+
+    .single .conteudo .artigo .categoria p {
+        color: #222;
+        font-weight: 900;
+    }
+
+    .single .conteudo .artigo .conteudo_post p {
+        font-family: Barlow-Regular;
+        color: #111;
+        font-weight: normal;
+    }
+
+    .single .post-thumbanil{
+        margin: 1rem 0;
+    }
+
+    .single .paginacao{
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+    .single .share figure img{
+        width: 100%;
+    }
+
+    .single [type=reset], [type=submit], button, html [type=button]{
+        background-color: #c1272d;
+        color: #fff;
+        border: 0;
+        padding: 0.4rem;
+        border-radius: 10px;
+    }
+
+
+}
+
+
+@media (min-width: 2000px){
+
+    .menu-principal .menu .current-menu-item{
+        padding: 10px!important;
+    }
+
+   .menu-principal .menu .current-menu-item a{
+        font-size: 2em;
+    }
+
+    .home .logo img{
+        max-width: 70%;
+    }
+    .archive .logo img{
+        max-width: 70%;
+    }
+    .single .logo img{
+        max-width: 70%;
+    }
+
+}

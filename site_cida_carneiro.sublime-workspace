@@ -1,0 +1,566 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cont",
+				"count"
+			],
+			[
+				"for",
+				"foreach"
+			],
+			[
+				"over",
+				"overflow-y"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"box",
+				"box-sizing"
+			],
+			[
+				"ma-",
+				"max-height"
+			],
+			[
+				"co",
+				"contain"
+			],
+			[
+				"background",
+				"background-attachment"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"backgrou",
+				"background-repeat"
+			],
+			[
+				"pri",
+				"printf()"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"muda",
+				"mudaCorFonte"
+			],
+			[
+				"st",
+				"sticky"
+			],
+			[
+				"s",
+				"static"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"single",
+				"single-product"
+			],
+			[
+				"add",
+				"add_filter"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"onC",
+				"onClick"
+			],
+			[
+				"conte",
+				"content"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"onCl",
+				"onClick"
+			],
+			[
+				"ro",
+				"rotate3d()"
+			],
+			[
+				"backgroundco",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"the",
+				"the_title"
+			],
+			[
+				"the_o",
+				"the_content"
+			],
+			[
+				"overflow",
+				"overflow-y"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"transition-",
+				"transition-duration"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"inl",
+				"inline-flex"
+			],
+			[
+				"alig",
+				"align-items"
+			],
+			[
+				"align",
+				"align-items"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"gri",
+				"inline-grid"
+			],
+			[
+				"c",
+				"cover"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"config git",
+				"Package Control: Satisfy Packages"
+			],
+			[
+				"termina",
+				"Terminal: Open in project folder"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Github: Open File"
+			],
+			[
+				"github",
+				"Github: Repository"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"ftp",
+				"FTPSync: Browse"
+			],
+			[
+				"control",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"PAC",
+				"Package Control: Add Channel"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/davidmendoza/Sites/projetos /2024/Cida Carneiro"
+	],
+	"file_history":
+	[
+		"/Users/davidmendoza/Sites/projetos /2024/Cida Carneiro/ftpsync.settings",
+		"/Users/davidmendoza/Sites/projetos /2024/Cida Carneiro/arquivoTeste.txt",
+		"/Users/davidmendoza/Sites/projetos /2024/Cida Carneiro/sftp-config_OLD.json",
+		"/Users/davidmendoza/Sites/projetos /2024/Cida Carneiro/sftp-config.json",
+		"/Users/davidmendoza/Library/Application Support/Sublime Text/Packages/User/sftp_servers/ftpCidaCarneiro.json",
+		"/Users/davidmendoza/Local Sites/david-mendoza/app/public/wp-content/themes/DavidMendoza23/index.php",
+		"/Users/davidmendoza/Local Sites/david-mendoza/app/public/wp-content/themes/DavidMendoza23/footer.php",
+		"/Users/davidmendoza/Local Sites/david-mendoza/app/public/wp-content/themes/DavidMendoza23/style.css",
+		"/Users/davidmendoza/Local Sites/david-mendoza/app/public/wp-content/themes/DavidMendoza23/functions.php",
+		"/Users/davidmendoza/Local Sites/imo/app/public/wp-content/themes/iMO/style.css",
+		"/Users/davidmendoza/Downloads/heroes.html",
+		"/Users/davidmendoza/Downloads/style.css",
+		"/Users/davidmendoza/Desktop/curso-php/curso-php-17/logout.php",
+		"/Users/davidmendoza/Desktop/curso-php/curso-php-17/login.php",
+		"/Users/davidmendoza/Desktop/curso-php/exercicio_diagonal_matriz.php",
+		"/Users/davidmendoza/Desktop/curso-php/Calcula_Diagonal_matriz.php",
+		"/Users/davidmendoza/Desktop/curso-php/curso-php-11/index.php",
+		"/Users/davidmendoza/Desktop/curso-php/curso-php-11/classes_objetos/classe.php",
+		"/Users/davidmendoza/Desktop/curso-php/index.php",
+		"/Users/davidmendoza/Desktop/curso-php/variaveis/interpolacao.php",
+		"/Users/davidmendoza/Desktop/curso-php/exercicio.php",
+		"/Users/davidmendoza/Sites/projetos /2022/teatrogti.com.br./wp-content/themes/teatro-gti/style.css",
+		"/Users/davidmendoza/Sites/projetos /2023/davidmendoza.com.br/wp-content/themes/DavidMendoza23/style.css",
+		"/Users/davidmendoza/Downloads/icons8-instagram.svg",
+		"/Users/davidmendoza/Desktop/menu_responsivo_flexBox/menu_responsivo_flex_box.html",
+		"/Users/davidmendoza/Sites/projetos /2023/davidmendoza.com.br/wp-content/themes/DavidMendoza23/header.php",
+		"/Users/davidmendoza/Sites/projetos /2023/davidmendoza.com.br/wp-content/themes/DavidMendoza23/functions.php",
+		"/Users/davidmendoza/Desktop/wp-config.php",
+		"/Users/davidmendoza/Documents/DESENVOLVIMENTO/2021/FFCG/BKuP/25-05-22 - festivaldasfamiliasdecircodegoiania.com/wp-content/themes/ffcg/css/sftp-config.json",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/header.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/page-home.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/footer.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/style.css",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/page-arte.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/404.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/single.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/archive-arte.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/content-galeria.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/content.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/content-image.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/page-design.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/content-pagamento.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/page-foto.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/sftp-config.json",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/content-geral.php",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/ sftp-config.json",
+		"/Users/davidmendoza/Library/Application Support/Sublime Text/Packages/User/sftp_servers/cida.json",
+		"/Users/davidmendoza/Library/Application Support/Sublime Text/Packages/User/sftp_servers/server_cidacarneiro.com",
+		"/Users/davidmendoza/Library/Application Support/Sublime Text/Packages/User/sftp_servers/untitled",
+		"/Users/davidmendoza/Library/Application Support/Sublime Text/Packages/User/sftp_servers/ftp_cidacarneiro.com",
+		"/Users/davidmendoza/Library/Application Support/Sublime Text/Packages/User/MySFTP/servers/ftp_cidacarneiro.com",
+		"/Users/davidmendoza/Library/Application Support/Sublime Text/Packages/MySFTP/MySFTP.sublime-settings",
+		"/Users/davidmendoza/Library/Application Support/Sublime Text/Packages/User/MySFTP.sublime-settings",
+		"/Users/davidmendoza/Sites/projetos /2022/cidacarneiro.com/wp-content/themes/Cida Carneiro/ftpsync.settings",
+		"/Users/davidmendoza/Desktop/efeitos-particle/efeito normal/particle.html",
+		"/Users/davidmendoza/Desktop/particle.html",
+		"/Users/davidmendoza/Documents/DESENVOLVIMENTO/2022/sites/davidmendoza.com.br/particle.js",
+		"/Users/davidmendoza/Documents/DESENVOLVIMENTO/2022/sites/davidmendoza.com.br/sftp-config.json",
+		"/var/folders/s5/kfjgpy551dggcp12xq_x8cwc0000gn/T/sublime-sftp-browse-1644860592/ftp_config_davidmendoza.com.br2/wp-content/themes/david/page-home.php",
+		"/Users/davidmendoza/Library/Application Support/Sublime Text/Packages/User/sftp_servers/ftp_config_davidmendoza.com.br2",
+		"/var/folders/s5/kfjgpy551dggcp12xq_x8cwc0000gn/T/sublime-sftp-browse-1644860452/ftp_config_davidmendoza.com.br/wp-content/themes/david/page-home.php",
+		"/Users/davidmendoza/Documents/DESENVOLVIMENTO/2022/sites/davidmendoza.com.br/teste.html",
+		"/Users/davidmendoza/Documents/DESENVOLVIMENTO/2022/sites/davidmendoza.com.br/untitled",
+		"/Users/davidmendoza/Documents/DESENVOLVIMENTO/2022/sites/davidmendoza.com.br/ftpsync.settings",
+		"/Users/davidmendoza/Library/Application Support/Sublime Text/Packages/User/sftp_servers/ftp_config_davidmendoza.com.br",
+		"/Users/davidmendoza/Downloads/html5up-dopetrope/index.html",
+		"/Users/davidmendoza/Downloads/html5up-dopetrope/left-sidebar.html",
+		"/Users/davidmendoza/Downloads/html5up-dopetrope/right-sidebar.html",
+		"/Applications/MAMP/htdocs/2022/teatrogti/wp-content/themes/gti/inc/customizer.php",
+		"/Applications/MAMP/htdocs/2022/teatrogti/wp-content/themes/gti/index.php",
+		"/Applications/MAMP/htdocs/2022/teatrogti/wp-content/themes/gti/functions.php",
+		"/Applications/MAMP/htdocs/2022/teatrogti/wp-content/themes/gti/footer.php",
+		"/Applications/MAMP/htdocs/2022/teatrogti/wp-content/themes/gti/header.php",
+		"/Applications/MAMP/htdocs/2022/teatrogti/wp-content/themes/gti/inde.php",
+		"/Users/davidmendoza/Sites/localhost/2022/ZABRISKIE-2022/wp-content/themes/Zabriskie_2020/search.php",
+		"/Users/davidmendoza/Sites/localhost/2022/ZABRISKIE-2022/.ftpconfig",
+		"/Users/davidmendoza/Library/Application Support/Sublime Text/Packages/User/FTPSync.sublime-settings",
+		"/Users/davidmendoza/Desktop/index.html",
+		"/Users/davidmendoza/Desktop/mudaCor.html",
+		"/Applications/MAMP/htdocs/gabrielcaetano.art.br/wp-content/themes/gabriel_caetano/functions.php",
+		"/Applications/MAMP/htdocs/gabrielcaetano.art.br/wp-content/themes/gabriel_caetano/assets/js/template.js",
+		"/Applications/MAMP/htdocs/gabrielcaetano.art.br/wp-content/themes/gabriel_caetano/sidebar-shop.php",
+		"/Applications/MAMP/htdocs/gabrielcaetano.art.br/wp-content/themes/gabriel_caetano/woocommerce/archive-product.php",
+		"/Applications/MAMP/htdocs/Photo/wp-content/themes/fancy-lab/functions.php",
+		"/Applications/MAMP/htdocs/Photo/wp-content/themes/fancy-lab/template-parts/content-page.php",
+		"/Applications/MAMP/htdocs/Photo/wp-content/themes/fancy-lab/page.php",
+		"/Applications/MAMP/htdocs/Photo/wp-content/themes/fancy-lab/template-parts/content.php",
+		"/Applications/MAMP/htdocs/festivaldasfamiliasdecircodegoiania.com/wp-content/themes/ffcg/functions.php",
+		"/Users/davidmendoza/Desktop/backup_gabriel/gabrielcaetano_19-10/wp-content/themes/gabriel_caetano/archive-bosque_shambala.php",
+		"/Users/davidmendoza/Documents/DESENVOLVIMENTO/2020/Zabriskie/bckup_arquivos_zabriskie/Zabriskie_2020_Online/page-home.php",
+		"/Applications/MAMP/htdocs/salvar-transacao-bd/configuracao.php",
+		"/Applications/MAMP/htdocs/pagseguro/configuracao.php",
+		"/Users/davidmendoza/Desktop/integracao_pagseguro_CELKe/salvar-transacao-bd/js/personalizado.js",
+		"/Users/davidmendoza/Desktop/integracao_pagseguro_CELKe/salvar-transacao-bd/proc_pag.php",
+		"/Users/davidmendoza/Desktop/integracao_pagseguro_CELKe/salvar-transacao-bd/configuracao.php",
+		"/Applications/MAMP/htdocs/festivaldasfamiliasdecircodegoiania.com/wp-content/themes/ffcg/single-espetaculos.php",
+		"/Applications/MAMP/htdocs/Photo/wp-content/themes/fancy-lab/index.php",
+		"/Applications/MAMP/htdocs/gabrielcaetano.art.br/wp-content/themes/gabriel_caetano/sidebar.php",
+		"/Users/davidmendoza/Desktop/backup_gabriel/gabrielcaetano.art.br_17_10/wp-content/themes/gabriel_caetano/inc/wc-personalizado.php",
+		"/Applications/MAMP/htdocs/Photo/wp-content/themes/fancy-lab/sidebar.php",
+		"/Users/davidmendoza/Documents/DESENVOLVIMENTO/2020/Zabriskie/bckup_arquivos_zabriskie/Zabriskie_2020_Online/functions.php",
+		"/Applications/MAMP/htdocs/guilda_localHost/wp-content/themes/guilda/functions.php",
+		"/Applications/MAMP/htdocs/Photo/wp-content/themes/photo/functions.php",
+		"/Users/davidmendoza/Desktop/pag_seguro_API_Integracao/index.php",
+		"/Users/davidmendoza/Desktop/pag_seguro_API_Integracao/js/personalizado.js",
+		"/Users/davidmendoza/Desktop/pag_seguro_API_Integracao/configuracao.php",
+		"/Users/davidmendoza/Desktop/salvar-transacao-bd/js/personalizado.js",
+		"/Applications/MAMP/htdocs/pagseguro/js/personalizado.js",
+		"/Users/davidmendoza/Sites/localhost/wp-content/themes/salvar-transacao-bd/cabecalho.php",
+		"/Users/davidmendoza/Sites/localhost/wp-content/themes/salvar-transacao-bd/configuracao.php",
+		"/Users/davidmendoza/Sites/localhost/wp-content/themes/pagseguro-master/utils.php",
+		"/Users/davidmendoza/Sites/localhost/wp-content/themes/pagseguro-master/notificacao.php",
+		"/Users/davidmendoza/Sites/localhost/wp-content/themes/pagseguro-master/js/javaScript.js",
+		"/Users/davidmendoza/Sites/localhost/wp-content/themes/pagseguro-master/config.php",
+		"/Users/davidmendoza/Downloads/pagseguro-recuperar-meio-pagamento/index.php",
+		"/Users/davidmendoza/Sites/localhost/wp-content/themes/pagseguro/js/personalizado.js",
+		"/Applications/MAMP/htdocs/pagseguro/index.php",
+		"/Users/davidmendoza/Sites/localhost/wp-content/themes/pagseguro/pagamento.php",
+		"/Applications/MAMP/htdocs/gabrielcaetano.art.br/wp-content/themes/gabriel_caetano/index.php",
+		"/Applications/MAMP/htdocs/guilda.com.br/wp-content/themes/guilda/page-comum.php",
+		"/Applications/MAMP/htdocs/Pagamento_API_Pagseguro/index.php",
+		"/Users/davidmendoza/Documents/DESENVOLVIMENTO/2021/integracao_pagseguro/pagseguro-recuperar-meio-pagamento 2/index.php",
+		"/Applications/MAMP/htdocs/integracao-checkout-transparente-pagseguro/libraries/zepto.min.js",
+		"/Users/davidmendoza/Desktop/pagamento_rdsports.php",
+		"/Users/davidmendoza/Downloads/pagseguro-direct-payment-master/config.php",
+		"/Users/davidmendoza/Downloads/pagseguro-direct-payment-master/index.php",
+		"/Applications/MAMP/htdocs/salvar-transacao-bd/index.php",
+		"/Applications/MAMP/htdocs/salvar-transacao-bd/pagamento.php"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SFTP":
+	{
+		"height": 157.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 126.0
+	},
+	"pinned_build_system": "",
+	"project": "site_cida_carneiro.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
