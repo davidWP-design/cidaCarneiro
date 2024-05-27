@@ -8,10 +8,10 @@
     "sync_down_on_open": true,
     "sync_same_age": true,
     
-    "host": "192.185.131.99",
-    "user": "david@cidacarneiro.com",
-    "password": "@PFB%jj4Gh=}",
-    "port": "21",
+    "host": "",
+    "user": "",
+    "password": "",
+    "port": "",
     
     "remote_path": "/home/seman731/public_html/cidacarneiro.com",
     //"file_permissions": "664",
